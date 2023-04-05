@@ -34,6 +34,7 @@ export const Movies = () => {
               <th scope="col">Rating</th>
               <th scope="col">Category</th>
               <th scope="col">Edited</th>
+              <th scope="col">Lent To</th>
               <th scope="col">Notes</th>
             </tr>
           </thead>
@@ -46,6 +47,7 @@ export const Movies = () => {
                 <td>{m.rating}</td>
                 <td>{m.category}</td>
                 <td>{m.edited}</td>
+                <td>{m.lentTo}</td>
                 <td>{m.notes}</td>
               </tr>
             ))}
